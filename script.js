@@ -3,7 +3,7 @@ const sendButton = document.getElementById("sendButton");
 const message = document.getElementById("message");
 
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://aircon-system-api.vercel.app/";
 
 
 sendButton.addEventListener("click", sendName);
